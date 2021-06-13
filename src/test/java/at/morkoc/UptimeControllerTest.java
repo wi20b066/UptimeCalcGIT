@@ -10,7 +10,7 @@ public class UptimeControllerTest {
         //Arrange
         UptimeController controller = new UptimeController();
         //Act
-        String actualValue = controller.calculateUptime(99.50);
+        String actualValue = controller.calculateUptime(99.95);
         //Assert
         Assertions.assertEquals("43178,40", actualValue);
     }
